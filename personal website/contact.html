@@ -1,0 +1,141 @@
+<html>
+     <head>
+           <meta charset="utf-8">
+           <title>Personal Website</title>
+           <link href="css/normalize.css.css" rel="stylesheet" type="text/css"> 
+           <link href="css/styles.css.css" rel="stylesheet" type="text/css"> 
+           
+           <style>
+		   body{
+                     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+                       
+                    }
+            h1{
+                color: paleturquoise
+            }
+            blockquote{
+                color: paleturquoise;
+                background-color:pink;
+                font-size: large;
+            }
+            </style>
+            
+     </head>
+
+    <body>
+        <header>
+            <div class="dropdown" style="float:right;">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a> 
+                    <a href="about.html">About me</a>
+                    <a href="personal.html">My personal travels</a> 
+                    <a href="inspo.html">Travel inspiration</a>
+                    <a href="contact.html">Contact me</a>
+                </div>
+              </div>
+              <h1 class="header-title animate-pop-in">Lauren's Travel Blog</h1>
+          </header> 
+          <h1>Contact Me & Socials</h1>
+          <img id="worldpic" src="https://cdn.mapsinternational.co.uk/pub/media/catalog/product/cache/c1e8317268b965509e9b0d47d8a6c014/c/l/classic-world-map_wm01192.jpg">
+
+        <section id="formtable">
+        
+            <table id="socials">
+                <caption> Other Places to Find Me </caption>
+                <thead>
+                  <tr>
+                    <th>Media Name</th>
+                    <th>My Handle</th>
+                    <th>How Often I Go On It</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Instagram</td>
+                    <td><a href="https://www.instagram.com/lauren.lhughes/">lauren.lhughes</a></td>
+                    <td>All throughout the day</td>
+                  </tr>
+                  <tr>
+                      <td>Facebook</td>
+                      <td><a href="https://www.facebook.com/people/Lauren-Hughes/100025682990140">Lauren Hughes</a></td>
+                      <td>Once at night and in the morning</td>
+                    </tr>
+                    <tr>
+                      <td>Pinterest</td>
+                      <td><a href="https://www.pinterest.com/laurenlhughes/">laurenlhughes</a></td>
+                      <td>A few times a week</td>
+                    </tr>
+                  </tbody>
+                </table>   
+
+            <header class='contact-form-header'>
+            <h1>Contact Me</h1>
+            <p><em>Fill out this form to contact me or if you have any questions!</em></p>
+          </header>
+          <form action='' method='post' class='contact-form'>
+          
+          <div class='form-row'>
+            <label for='full-name'>Name</label>
+            <input id='full-name' name='full-name' type='text'/>
+          </div>
+          <div class='form-row'>
+            <label for='email'>Email</label>
+            <input id='email'
+                   name='email'
+                   type='email'
+                   placeholder='joe@example.com'/>
+          </div>
+          
+          <fieldset class='legacy-form-row'>
+            <legend>Reason for Contact</legend>
+            <input id='talk-type-1'
+                   name='talk-type'
+                   type='radio'
+                   value='main-stage' />
+            <label for='talk-type-1' class='radio-label'>Question</label>
+            <input id='talk-type-2'
+                   name='talk-type'
+                   type='radio'
+                   value='workshop'
+                   checked />
+            <label for='talk-type-2' class='radio-label'>Comment</label>
+          </fieldset>
+    
+          <div class='form-row'>
+            <label for='t-shirt'>Question Category</label>
+            <select id='t-shirt' name='t-shirt'>
+              <option value='xs'>General Question</option>
+              <option value='s'>Work With Me</option>
+              <option value='m'>Other</option>
+              <option value='l'>N/A</option>
+            </select>
+          </div>
+          <div class='form-row'>
+            <label for='abstract'>Questions or Comments</label>
+            <textarea id='abstract' name='abstract'></textarea>
+            <div class='instructions'>Type your question or comment here!</div>
+          </div>
+          <div class='form-row'>
+            <label class='checkbox-label' for='available'>
+            <input id='available'
+                   name='available'
+                   type='checkbox'
+                   value='is-available'/>
+            <span>Sign me up for the newsletter!</span>
+            </label>
+          </div>
+    
+          <div class='form-row'>
+            <button><mail(to,subject,message,headers,parameters)></mail>Submit</button>
+          </div>
+    
+        </form>
+      
+
+            </section>
+         <footer>
+           <p id="copyright">Lauren Hughes &#169</p>
+         </footer>
+   </body>
+</html>
